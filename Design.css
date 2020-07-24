@@ -1,0 +1,129 @@
+@import url("https://fonts.google.com/specimen/Arvo?sidebar.open&selection.family=Arvo:wght@700");
+@import url("https://fonts.googleapis.com/css2?family=Arvo:wght@700");
+
+*, * ::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    font-family: Monstserrat, sans-serif;
+    font-size: 1.2rem;
+    color: #47525E;
+    min-height: 100vh;
+}
+
+.full-height-grow{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.main-nav a{
+    font-family: Arvo, sans-serif;
+    font-weight: 700;
+    color: inherit;
+    text-decoration: none;
+    padding: 1rem;
+    text-align: center;    
+}
+
+.main-nav a:hover{
+    color: #adadad;
+}
+
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-header{
+    height: 150px;
+}
+
+
+.button{
+    color: black;
+    background-color: #13C7CE;
+    padding: .75rem 1.5rem;
+    border-radius: 50rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.button:hover{
+    background-color: #1390c3;
+}
+
+.container{
+    max-width: 2000px;
+    margin: 0 auto;
+
+}
+
+.judul{
+    transform: translate(35%,0%);
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.sub1{
+    transform: translate(18%,20%);
+    font-weight: bold;
+    font-family: Montserrat, sans-serif;
+    font-size: 1.2em;
+}
+
+.paragraf1{
+    width: 300px;
+    height: 20px;
+    text-align: right;
+    transform: translate(133%,30%);
+    font-family: Montserrat, sans-serif;
+    font-size: 1em;
+}
+
+img.daging {
+
+    transform: translate(140%,-30%);
+}
+
+img.sayur {
+    transform: translate(28%,-25%);
+}
+
+.sub2{
+    transform: translate(51.6%,-1150%);
+    font-weight: bold;
+    font-family: Montserrat, sans-serif;
+    font-size: 1.2em;
+}
+
+.paragraf2{
+    width: 300px;
+    height: 20px;
+    text-align: left;
+    transform: translate(257%,-1600%);
+    font-family: Montserrat, sans-serif;
+    font-size: 1em;
+}
+
+.search{
+    display: flex;
+    width:800px;
+    transform: translate(7%,-20%);
+}
+
+
+
+
+
+
